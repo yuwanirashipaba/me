@@ -1,6 +1,6 @@
-fs = require("fs");
+const fs = require("fs");
 const https = require("https");
-process = require("process");
+const process = require("process");
 require("dotenv").config();
 const GITHUB_USERNAME = "yuwanirashipaba"
 const USE_GITHUB_DATA = "true"
