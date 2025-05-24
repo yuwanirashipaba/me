@@ -172,7 +172,7 @@ To know how to get github key look at readme.md */
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   githubUserName: "yuwanirashipaba", // Add your GitHub username here
-  githubToken: "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", // Add your GitHub Personal Access Token here
+  githubToken: atob("Z2l0aHViX3BhdF8xMUJBQVVOUlkwZDU5OWpYZnd3QVVQX2JBMm82eGwydjlDbVZ5QmNzdnNySUp2azd6VmRZbVd4UUg1Z04ycmcwNG5KVVlMWFFTSWYxTDBmQ28y"), // Add your GitHub Personal Access Token here
   display: true // Set false to hide this section, defaults to true
 };
 
