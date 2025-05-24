@@ -171,6 +171,8 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  githubUserName: "yuwanirashipaba", // Add your GitHub username here
+  githubToken: "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", // Add your GitHub Personal Access Token here
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -290,7 +292,7 @@ const blogSection = {
       url: "https://medium.com/@yuwanirashipaba/understanding-the-software-testing-life-cycle-stlc-d9d31de6cfc4",
       title: "Understanding the Software Testing Life Cycle (STLC)",
       description:
-        "In the software world, testing isn’t just a one-time task — it’s a cycle. The Software Testing Life Cycle (STLC) is a ...."
+        "In the software world, testing isn't just a one-time task — it's a cycle. The Software Testing Life Cycle (STLC) is a ...."
     }
   ],
   display: true // Set false to hide this section, defaults to true

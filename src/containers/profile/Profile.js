@@ -16,13 +16,60 @@ export default function Profile() {
   useEffect(() => {
     if (openSource.showGithubProfile === "true") {
       const getProfileData = () => {
-        fetch("/profile.json")
+        const query = `
+          {
+            user(login: "${openSource.githubUserName}") {
+              name
+              bio
+              avatarUrl
+              location
+              pinnedItems(first: 10, types: REPOSITORY) {
+                totalCount
+                edges {
+                  node {
+                    {
+                      name
+                      description
+                      forkCount
+                      stargazers {
+                        totalCount
+                      }
+                      url
+                      id
+                      diskUsage
+                      primaryLanguage {
+                        name
+                        color
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }`;
+
+        fetch("https://api.github.com/graphql", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${openSource.githubToken}`
+          },
+          body: JSON.stringify({query})
+        })
           .then(result => {
             if (result.ok) {
               return result.json();
             }
+            // Handle HTTP errors
+            return result.text().then(text => {
+              throw new Error(`GitHub API Error: ${result.status} ${result.statusText} - ${text}`);
+            });
           })
           .then(response => {
+            if (response.errors) {
+              // Handle GraphQL errors
+              throw new Error(`GraphQL Error: ${JSON.stringify(response.errors)}`);
+            }
             setProfileFunction(response.data.user);
           })
           .catch(function (error) {
