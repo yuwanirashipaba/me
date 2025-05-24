@@ -2,10 +2,11 @@ const fs = require("fs");
 const https = require("https");
 const process = require("process");
 require("dotenv").config();
-const GITHUB_USERNAME = "yuwanirashipaba"
-const USE_GITHUB_DATA = "true"
-const MEDIUM_USERNAME = "Yuwanirashipaba"
-const GITHUB_TOKEN = "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";
+
+const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
+const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
+const USE_GITHUB_DATA = process.env.USE_GITHUB_DATA;
+const MEDIUM_USERNAME = process.env.MEDIUM_USERNAME;
 
 const ERR = {
   noUserName:
