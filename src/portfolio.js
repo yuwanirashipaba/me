@@ -293,6 +293,12 @@ const blogSection = {
       title: "Understanding the Software Testing Life Cycle (STLC)",
       description:
         "In the software world, testing isn't just a one-time task — it's a cycle. The Software Testing Life Cycle (STLC) is a ...."
+    },
+    {
+      url: "https://medium.com/@yuwanirashipaba/types-of-software-testing-a-comprehensive-guide-for-qa-professionals-e72c25134265",
+      title: "Types of Software Testing: A Comprehensive Guide for QA Professionals",
+      description:
+        "Software testing is a cornerstone of Quality Assurance (QA), ensuring that applications meet specified requirements, function ...."
     }
   ],
   display: true // Set false to hide this section, defaults to true
