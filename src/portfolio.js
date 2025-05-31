@@ -284,13 +284,13 @@ const blogSection = {
   blogs: [
     {
       url: "https://medium.com/@yuwanirashipaba/when-you-download-an-app-and-it-just-works-you-rarely-think-about-what-went-on-behind-the-scenes-555f5cc7374b",
-      title: "What is Quality Assurance?",
+      title: "🤔 What is Quality Assurance?",
       description:
         "When you download an app and it just works, you rarely think about what went on behind the scenes...."
     },
     {
       url: "https://medium.com/@yuwanirashipaba/understanding-the-software-testing-life-cycle-stlc-d9d31de6cfc4",
-      title: "Understanding the Software Testing Life Cycle (STLC)",
+      title: "🧪 Understanding the Software Testing Life Cycle (STLC)",
       description:
         "In the software world, testing isn't just a one-time task — it's a cycle. The Software Testing Life Cycle (STLC) is a ...."
     },
@@ -299,6 +299,18 @@ const blogSection = {
       title: "Types of Software Testing: A Comprehensive Guide for QA Professionals",
       description:
         "Software testing is a cornerstone of Quality Assurance (QA), ensuring that applications meet specified requirements, function ...."
+    },
+    {
+      url: "https://medium.com/@yuwanirashipaba/the-soft-skills-every-qa-engineer-needs-to-thrive-71415e9bd65a",
+      title: "🧠 The Soft Skills Every QA Engineer Needs to Thrive",
+      description:
+        "In the world of software development, QA (Quality Assurance) is often seen as the gatekeeper of quality. We write test cases, log bugs, ...."
+    },
+    {
+      url: "https://medium.com/@yuwanirashipaba/the-soft-skills-every-qa-engineer-needs-to-thrive-71415e9bd65a",
+      title: "🧪 Manual vs. Automation Testing: Which One Truly Delivers Quality?",
+      description:
+        "In the software testing world, there’s an ongoing debate: manual testing vs. automation testing — which one’s better? ...."
     }
   ],
   display: true // Set false to hide this section, defaults to true
