@@ -296,7 +296,7 @@ const blogSection = {
     },
     {
       url: "https://medium.com/@yuwanirashipaba/types-of-software-testing-a-comprehensive-guide-for-qa-professionals-e72c25134265",
-      title: "Types of Software Testing: A Comprehensive Guide for QA Professionals",
+      title: "💻 Types of Software Testing: A Comprehensive Guide for QA Professionals",
       description:
         "Software testing is a cornerstone of Quality Assurance (QA), ensuring that applications meet specified requirements, function ...."
     },
@@ -307,10 +307,26 @@ const blogSection = {
         "In the world of software development, QA (Quality Assurance) is often seen as the gatekeeper of quality. We write test cases, log bugs, ...."
     },
     {
-      url: "https://medium.com/@yuwanirashipaba/the-soft-skills-every-qa-engineer-needs-to-thrive-71415e9bd65a",
+      url: "https://medium.com/@yuwanirashipaba/will-ai-replace-qa-engineers-c8c5a847c9bc",
+      title: "🤖 Will AI Replace QA Engineers?",
+      description:
+        "The rise of artificial intelligence has sparked a wave of speculation across every industry — and software testing is no exception. ...."
+    },
+    {
+      url: "https://medium.com/@yuwanirashipaba/from-test-cases-to-prompts-the-evolution-of-qa-in-the-age-of-generative-ai-1198e506033b",
+      title: "🚀 Automation from Test Cases to Prompts: The Evolution of QA in the Age of Generative AI",
+      description: "Just a few years ago, being a QA engineer meant meticulously writing test cases, running automated scripts, and manually verifying software ...."
+    },
+    {
+      url: "https://medium.com/@yuwanirashipaba/manual-vs-automation-testing-which-one-truly-delivers-quality-b5aa43b4bce2",
       title: "🧪 Manual vs. Automation Testing: Which One Truly Delivers Quality?",
       description:
         "In the software testing world, there’s an ongoing debate: manual testing vs. automation testing — which one’s better? ...."
+    },
+    {
+      url: "https://medium.com/@yuwanirashipaba/why-agile-is-the-superpower-your-development-team-needs-802accae3840",
+      title: "💡 Why Agile is the Superpower Your Development Team Needs",
+      description: "In a world where technology evolves faster than ever, software teams can’t afford to move slowly. That’s where Agile swoops in ...."
     }
   ],
   display: true // Set false to hide this section, defaults to true
