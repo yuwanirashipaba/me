@@ -318,15 +318,25 @@ const blogSection = {
       description: "Just a few years ago, being a QA engineer meant meticulously writing test cases, running automated scripts, and manually verifying software ...."
     },
     {
+      url: "https://medium.com/@yuwanirashipaba/exploratory-testing-why-it-matters-more-than-you-think-f18cae6f61e0",
+      title: "🔍 Exploratory Testing: Why It Matters More Than You Think",
+      description: "Exploratory testing is a simultaneous process of learning, test design, and execution. Unlike traditional scripted testing — where test cases are predefined ...."
+    },
+    {
+      url: "https://medium.com/@yuwanirashipaba/why-agile-is-the-superpower-your-development-team-needs-802accae3840",
+      title: "💡 Why Agile is the Superpower Your Development Team Needs",
+      description: "In a world where technology evolves faster than ever, software teams can’t afford to move slowly. That’s where Agile swoops in ...."
+    },
+    {
       url: "https://medium.com/@yuwanirashipaba/manual-vs-automation-testing-which-one-truly-delivers-quality-b5aa43b4bce2",
       title: "🧪 Manual vs. Automation Testing: Which One Truly Delivers Quality?",
       description:
         "In the software testing world, there’s an ongoing debate: manual testing vs. automation testing — which one’s better? ...."
     },
     {
-      url: "https://medium.com/@yuwanirashipaba/why-agile-is-the-superpower-your-development-team-needs-802accae3840",
-      title: "💡 Why Agile is the Superpower Your Development Team Needs",
-      description: "In a world where technology evolves faster than ever, software teams can’t afford to move slowly. That’s where Agile swoops in ...."
+      url: "https://medium.com/@yuwanirashipaba/getting-started-with-automation-testing-a-beginners-guide-0157782e2980",
+      title: "🤖 Getting Started with Automation Testing: A Beginner's Guide",
+      description: "In a world driven by speed, quality, and digital-first experiences, manual testing is no longer enough. Whether you’re building web apps, mobile apps, or APIs, ...."
     }
   ],
   display: true // Set false to hide this section, defaults to true
