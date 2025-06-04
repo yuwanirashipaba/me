@@ -342,6 +342,11 @@ const blogSection = {
       url: "https://medium.com/@yuwanirashipaba/understanding-non-functional-testing-performance-security-usability-in-qa-0d1837549a66",
       title: "🎯 Understanding Non-Functional Testing: Performance, Security & Usability in QA",
       description: "In the QA world, functional testing often gets the spotlight — checking whether the app behaves as expected. But what about the experience of using it? ...."
+    },
+    {
+      url: "https://medium.com/@yuwanirashipaba/the-role-of-qa-in-ci-cd-pipelines-ensuring-quality-at-speed-e0b59fa0e631",
+      title: "🚀 The Role of QA in CI/CD Pipelines: Ensuring Quality at Speed",
+      description: "In the era of Agile and DevOps, speed is everything. But speed without quality? That’s a recipe for disaster."
     }
   ],
   display: true // Set false to hide this section, defaults to true
