@@ -337,6 +337,11 @@ const blogSection = {
       url: "https://medium.com/@yuwanirashipaba/getting-started-with-automation-testing-a-beginners-guide-0157782e2980",
       title: "🤖 Getting Started with Automation Testing: A Beginner's Guide",
       description: "In a world driven by speed, quality, and digital-first experiences, manual testing is no longer enough. Whether you’re building web apps, mobile apps, or APIs, ...."
+    },
+    {
+      url: "https://medium.com/@yuwanirashipaba/understanding-non-functional-testing-performance-security-usability-in-qa-0d1837549a66",
+      title: "🎯 Understanding Non-Functional Testing: Performance, Security & Usability in QA",
+      description: "In the QA world, functional testing often gets the spotlight — checking whether the app behaves as expected. But what about the experience of using it? ...."
     }
   ],
   display: true // Set false to hide this section, defaults to true
