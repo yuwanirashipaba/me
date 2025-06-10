@@ -347,6 +347,16 @@ const blogSection = {
       url: "https://medium.com/@yuwanirashipaba/the-role-of-qa-in-ci-cd-pipelines-ensuring-quality-at-speed-e0b59fa0e631",
       title: "🚀 The Role of QA in CI/CD Pipelines: Ensuring Quality at Speed",
       description: "In the era of Agile and DevOps, speed is everything. But speed without quality? That’s a recipe for disaster."
+    },
+    {
+      url: "https://medium.com/@yuwanirashipaba/introduction-to-data-analytics-turning-data-into-insights-99cd8fff1260",
+      title: "📊 Introduction to Data Analytics: Turning Data into Insights",
+      description: "In today’s digital world, data is everywhere. From the apps we use daily to global business operations, data is constantly being, ...."
+    },
+    {
+      url: "https://medium.com/@yuwanirashipaba/real-world-applications-of-data-analytics-across-industries-6aa5970e650f",
+      title: "🌍 Real-World Applications of Data Analytics Across Industries",
+      description: "We live in a world where data is the new oil — a valuable resource that powers insights and innovation across nearly every sector. From predicting customer preferences ...."
     }
   ],
   display: true // Set false to hide this section, defaults to true
