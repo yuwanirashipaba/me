@@ -167,7 +167,7 @@ const workExperiences = {
       role: "IT Project Intern",
       company: "North Sails",
       companylogo: require("./assets/images/northsails.png"),
-      date: "March 2025 – Present",
+      date: "March 2025 – September 2025",
       desc: "As an IT Project Intern, I contribute to both Quality Assurance and Project Management activities. My work involves designing and executing test cases, identifying bugs, and collaborating with development teams to ensure software quality. I also assist in planning, monitoring project progress, and ensuring timely delivery of key milestones.",
     }
   ]
