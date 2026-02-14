@@ -157,6 +157,13 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Quality Assurance Intern",
+      company: "ZILLIONe",
+      companylogo: require("./assets/images/zillione.jpeg"),
+      date: "February 2026 – Present",
+      desc: "As a Software Quality Assurance Intern, I perform both manual and automation testing following industry QA standards. My work involves designing and executing test cases, developing and maintaining automated test scripts, identifying bugs, and collaborating with development teams to ensure software quality.",
+    },
+    {
       role: "IT Project Intern",
       company: "North Sails",
       companylogo: require("./assets/images/northsails.png"),
